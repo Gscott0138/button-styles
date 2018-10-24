@@ -13,5 +13,55 @@ div {
 }
 
 .btn {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+}
 
+.btn-subtle {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #ccc;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+}
+
+.btn-ghost {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #666;
+  padding: .4em .75em .3em;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+.btn-warning {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: #f33;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
